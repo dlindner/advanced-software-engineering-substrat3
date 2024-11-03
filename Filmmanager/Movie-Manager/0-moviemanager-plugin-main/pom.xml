@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.movie.manager</groupId>
+        <artifactId>Movie-Manager</artifactId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.movie.manager.plugin.main</groupId>
+    <artifactId>0-moviemanager-plugin-main</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <name>0-moviemanager-plugin-main</name>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.movie.manager.application</groupId>
+            <artifactId>2-moviemanager-application</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.movie.manager.plugin.genericentitymanager</groupId>
+            <artifactId>0-moviemanager-plugin-genericentitymanager</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.movie.manager.plugin.csvdatabase</groupId>
+            <artifactId>0-moviemanager-plugin-csvdatabase</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.movie.manager.plugin.imbd</groupId>
+            <artifactId>0-moviemanager-plugin-imbd</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.movie.manager.plugin.gui</groupId>
+            <artifactId>0-moviemanager-plugin-gui</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>
